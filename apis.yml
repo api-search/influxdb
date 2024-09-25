@@ -1,0 +1,39 @@
+aid: apis.json
+name: InfluxDB API
+type: Index
+description: |-
+  This is an example APIs.json file, demonstrating what is possible with
+  the API discovery specification.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Application Programming Interface
+- API
+created: '2024-09-25'
+modified: '2024-09-25'
+url: http://example.com/apis.json
+specificationVersion: '0.18'
+apis:
+- aid: apis.json:example-api
+  name: Example API
+  description: This provides details about a specific API, telling what is possible.
+  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  humanURL: http://example.com
+  baseURL: http://api.example.com
+  tags:
+  - API
+  - Application Programming Interface
+  properties:
+  - type: Documentation
+    url: https://example.com/documentation
+  - type: OpenAPI
+    url: http://example.com/openapi.yml
+common:
+- type: Signup
+  url: https://example.com/signup
+- type: Login
+  url: https://example.com/login
+- type: Authentication
+  url: http://example.com/authentication
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

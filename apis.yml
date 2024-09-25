@@ -1,35 +1,33 @@
-aid: apis.json
-name: InfluxDB API
+aid: influxdb
+name: InfluxDB
 type: Index
 description: |-
-  This is an example APIs.json file, demonstrating what is possible with
-  the API discovery specification.
+  We are the company building InfluxDB, the open source time series database used by more than a million developers around the world. Our mission is to help developers build intelligent, real-time systems with their time series data.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Application Programming Interface
-- API
+- Time Series
+- Database
 created: '2024-09-25'
 modified: '2024-09-25'
 url: http://example.com/apis.json
 specificationVersion: '0.18'
 apis:
-- aid: apis.json:example-api
-  name: Example API
-  description: This provides details about a specific API, telling what is possible.
+- aid: influxdb:influxdb
+  name: InfluxDB API
+  description: |-
+    We are the company building InfluxDB, the open source time series database used by more than a million developers around the world. Our mission is to help developers build intelligent, real-time systems with their time series data.
   image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-  humanURL: http://example.com
+  humanURL: https://www.influxdata.com/main/
   baseURL: http://api.example.com
   tags:
-  - API
-  - Application Programming Interface
+    - Time Series
+    - Database
   properties:
   - type: Documentation
     url: https://docs.influxdata.com/influxdb/cloud/api/v2/
   - type: OpenAPI
     url: https://raw.githubusercontent.com/influxdata/openapi/master/contracts/ref/cloud.yml   
 common:
-- type: Website   
-  url: https://www.influxdata.com/main/
 - type: Getting Started   
   url: https://docs.influxdata.com/influxdb/cloud/api/v2/#tag/Quick-start
 - type: Resources   
@@ -66,7 +64,6 @@ common:
   url: https://github.com/influxdata/influxdb
 - type: LinkedIn   
   url: https://www.linkedin.com/company/influxdb/
-  
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
